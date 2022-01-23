@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: #222;
 }
 
 * {
@@ -27,7 +28,7 @@ code {
 }
 
 .container {
-  height: 100vh;
+  min-height: -webkit-fill-available;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -50,6 +51,22 @@ code {
   color: #33FF33;
   /* text-shadow: 0 0 3px #80ffc0; */
   white-space: nowrap;
+}
+
+/*** Layout ***/ 
+body{
+  overflow: hidden;
+}
+footer {
+  flex: 0 1 auto;
+}
+@media only screen and (min-width: 600px) {
+  .container {
+    min-height: 100vh;
+  }
+  .title {
+    margin-top: 0;
+  }
 }
 
 /*** Typography ***/ 

@@ -9,6 +9,7 @@ export default function Home() {
         <title>First Fires has a website?</title>
         <link rel="icon" href="/favifire.ico" />
         {/* Favicon Copyright 2020 Twitter, Inc and other contributors: https://twemoji.twitter.com/ */}
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"></meta>
       </Head>
 
       <main>
