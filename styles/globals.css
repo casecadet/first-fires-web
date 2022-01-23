@@ -32,4 +32,44 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: #222222;
+  color: #33FF33;
+  color: #f0fff8; /* almost white */
+  text-shadow: 0 0 3px #80ffc0, 0 0 10px #00ff66;
+  font-family: 'GlassTTY';
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.title{
+  text-shadow: 0 0 3px #f8bb37, 0 0 10px #FFB000;
+}
+
+code {
+  background: #111;
+  color: #33FF33;
+  /* text-shadow: 0 0 3px #80ffc0; */
+  white-space: nowrap;
+}
+
+/*** Typography ***/ 
+@font-face {
+  font-family: 'GlassTTY'; 
+  src: url('../public/fonts/Glass_TTY_VT220.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.blink {
+  animation: blinker 2s step-start infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.description {
+  line-height: 1.7;
 }

@@ -11,10 +11,11 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Welcome to First Fires!" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Home of the <code>first fires</code> .
         </p>
+        <p>More to come soon(<span class="blink">?</span>)</p>
       </main>
 
       <Footer />
